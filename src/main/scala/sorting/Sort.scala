@@ -64,5 +64,12 @@ object Sort{
     foo(xs, Nil, Nil)
   }
 
+  def QuickSort[A](xs: List[A])(implicit op: Ordering[A]): List[A] = xs match {
+    case Nil => Nil
+    case _::Nil => xs
+    case hd::tl =>
+      val (before, after) = tl.partition(op.lt(_, hd))
+      QuickSort(before) ++ (hd::QuickSort(after))
+  }
 
 }

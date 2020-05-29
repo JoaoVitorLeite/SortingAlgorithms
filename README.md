@@ -37,13 +37,13 @@ src
 ### Compile
 
 To compile the files it is necessary to be in the root directory(where 
-the `build.sbt` file is), the use the `sbt compile` command. There were 45 tests performed.
+the `build.sbt` file is), the use the `sbt compile` command.
 
 ### Test
 
 To perform the tests it is necessary to be in the root 
 directory(where the `build.sbt` file is), then use the `sbt test` 
-command. The tests used FunSuite and assert's.
+command. The tests used FunSuite and assert's. There were 45 tests performed.
 
 ### IDE
 

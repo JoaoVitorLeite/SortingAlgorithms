@@ -37,7 +37,7 @@ src
 ### Compile
 
 To compile the files it is necessary to be in the root directory(where 
-the `build.sbt` file is), the use the `sbt compile` command.
+the `build.sbt` file is), the use the `sbt compile` command. There were 45 tests performed.
 
 ### Test
 

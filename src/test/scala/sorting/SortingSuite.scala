@@ -68,7 +68,7 @@ class SortingSuite extends FunSuite {
     val a = Sort.InsertionSort(List("apple"))
     assert(a == List[String]("apple"))
   }
-  test("T17"){
+ test("T17"){
     val a = Sort.InsertionSort(List("prosecution"))
     assert(a == List[String]("prosecution"))
   }
